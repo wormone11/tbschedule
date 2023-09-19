@@ -113,13 +113,12 @@
         </tr>
         <tr>
             <td>自定义参数(字符串):</td>
-            <td colspan="3"><input type="text" id="taskParameter" name="taskParameter"
-                                   value="<%=taskType.getTaskParameter()==null?"":taskType.getTaskParameter()%>"
-                                   style="width:657"></td>
+           <td colspan="3"><TEXTAREA type="textarea" rows="5"  id="taskParameter" name="taskParameter"
+                                     style="width:657"><%=taskType.getTaskParameter()==null?"":taskType.getTaskParameter()%> </TEXTAREA></td>
         </tr>
         <tr>
             <td>任务项(","分隔):</td>
-            <td colspan="3"><TEXTAREA type="textarea" rows="5" , id="taskItems" name="taskItems"
+            <td colspan="3"><TEXTAREA type="textarea" rows="5"  id="taskItems" name="taskItems"
                                       style="width:657"><%=taskItems%> </TEXTAREA></td>
         </tr>
 
